@@ -1,6 +1,57 @@
-\documentclass{article}
+\documentclass[12pt]{memoir} 
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{geometry}
+\geometry{
+  left = 3 cm,
+  top = 2.5 cm,
+  right = 2.5 cm,
+  bottom = 2.5 cm
+  }
+\usepackage[pages=some,placement=top]{background}
+\backgroundsetup{
+  scale=1,
+  color=black,
+  opacity=0.4,
+  angle=0,
+  contents={%
+    \includegraphics[width=\paperwidth,height=\paperheight]{src/imgs/FondoAgua.png}
+    %\includegraphics[width=0.9]{src/imgs/FondoAgua.png}
+    }%
+  }
+\def\gTitle{Desarrollo e implementacion de interfaces humano-maquina haciendo uso de  modelos extensos de lenguaje LLMs como ChatGPT, Ollama y DeepSeek, para control desistemas roboticos basados en ROS}
+\def\gAuthor{Cesar Arturo Martinez Hernandez}
+\def\gDegree{ingenieria mecatronica}
+\def\gNumeroControl{15241243}
+\def\gAdvisor{Asesor}
+\title{\gTitle}
+\author{\gAuthor}
+
+\input{titlepage}
 \begin{document}
-Hello
-again
-with lua
+% \maketitle
+  \frontmatter
+  \pagenumbering{roman}
+  \input{Chapters/FichaAsignacion}
+  \input{Chapters/Dictamen}
+  \input{Chapters/Agradecimientos}
+  \input{Chapters/Resumen}
+  \newpage
+  \tableofcontents
+  \clearpage
+  \listoffigures
+  \clearpage
+  \listoftables
+  \clearpage
+  \lstlistoflistings
+  \input{Chapters/Generalidades}
+  \mainmatter
+  \input{Chapters/MarcoTeorico}
+  \input{Chapters/Desarrollo}
+  \input{Chapters/Resultados}
+  \input{Chapters/Conclusiones}
+  \input{Chapters/Competencias}
+  \bibliography{referencias}
+  \input{Chapters/Anexos}
 \end{document}

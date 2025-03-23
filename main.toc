@@ -1,0 +1,16 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{Ficha unica de asignacion de Residencia Profesional}{\es@scroman {i}}{}%
+\contentsline {section}{Dictamen}{\es@scroman {ii}}{}%
+\contentsline {chapter}{Agradecimientos y/o dedicatorias}{\es@scroman {iii}}{}%
+\contentsline {chapter}{Resumen}{\es@scroman {v}}{}%
+\contentsline {chapter}{Índice general}{\es@scroman {vi}}{}%
+\contentsline {chapter}{Índice de figuras}{\es@scroman {vii}}{}%
+\contentsline {chapter}{Índice de cuadros}{\es@scroman {viii}}{}%
+\contentsline {chapter}{Listings}{\es@scroman {ix}}{}%
+\contentsline {chapter}{Generalidades}{\es@scroman {xi}}{}%
+\contentsline {chapter}{\chapternumberline {1}Marco Te\'orico}{1}{}%
+\contentsline {chapter}{\chapternumberline {2}Desarrollo}{3}{}%
+\contentsline {chapter}{\chapternumberline {3}Resultados}{5}{}%
+\contentsline {chapter}{\chapternumberline {4}Conclusiones}{7}{}%
+\contentsline {chapter}{\chapternumberline {5}Competencias}{9}{}%
+\contentsline {chapter}{\chapternumberline {6}Anexos}{11}{}%
